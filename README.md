@@ -3,6 +3,8 @@
 
 Bienvenido a **Empresa DEV**, una plataforma diseñada para ofrecer soluciones digitales innovadoras. Esta aplicación web permite gestionar usuarios a través de un sistema de autenticación con roles de administrador y usuario.
 
+![Pagina principal](https://github.com/Jordy-7/empresa_dev/blob/main/image/Captura%20desde%202024-09-27%2017-17-35.png)
+
 ## Descripción de la Aplicación
 
 La aplicación cuenta con un **dashboard** que permite a los administradores gestionar usuarios de manera efectiva. Las principales funcionalidades del dashboard incluyen:
