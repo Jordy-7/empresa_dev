@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
 $db = 'empresa_dev';
-$user = 'root'; // Cambia esto si usas otro usuario
-$pass = ''; // Cambia esto si usas otra contraseña
+$user = 'root';
+$pass = '';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);

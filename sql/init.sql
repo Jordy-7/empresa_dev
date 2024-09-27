@@ -11,11 +11,11 @@ CREATE TABLE IF NOT EXISTS users (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Insert admin user
+-- Insertar usuario administrador
 INSERT INTO users (username, password, email, full_name, role) 
 VALUES ('admin', '$2y$10$YourHashedPasswordHere', 'admin@empresa-dev.com', 'Admin User', 'admin');
 
--- Insert example users
+-- Insertar usuarios de ejemplo
 INSERT INTO users (username, password, email, full_name, role) VALUES
 ('john_doe', '$2y$10$ExampleHash1', 'john@example.com', 'John Doe', 'user'),
 ('jane_smith', '$2y$10$ExampleHash2', 'jane@example.com', 'Jane Smith', 'user'),
